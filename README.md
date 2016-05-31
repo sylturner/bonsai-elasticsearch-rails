@@ -24,6 +24,12 @@ Or install it yourself as:
 $ gem install bonsai-elasticsearch-rails
 ```
 
+You will now have access to the Elasticsearch ruby client via:
+
+```ruby
+Elasticsearch::Model.client
+```
+
 ## Details
 
 In order for the gem to work correctly, the application needs an environment variable called `BONSAI_URL`, which is populated with the complete Bonsai Elaticsearch cluster URL, including the HTTP authentication. The cluster URL will follow this pattern:
