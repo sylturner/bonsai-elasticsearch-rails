@@ -48,4 +48,4 @@ The cluster URL is available via the Bonsai dashboard.
 
 ## Support
 
-Having trouble with the gem? Find a problem or a bug? Just want to say thanks? Shoot us an [email](support@bonsai.io)!
+Having trouble with the gem? Find a problem or a bug? Just want to say thanks? Shoot us an [email](mailto:support@bonsai.io)!
