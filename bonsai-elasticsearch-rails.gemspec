@@ -2,8 +2,10 @@
 Gem::Specification.new do |spec|
   spec.name          = "bonsai-elasticsearch-rails"
   spec.version       = "0.1.0"
-  spec.authors       = ["Rob Sears"]
-  spec.email         = ["rob@onemorecloud.com"]
+
+  spec.authors       = ["Rob Sears", "Nick Zadrozny"]
+  spec.email         = ["rob@onemorecloud.com", "nick@onemorecloud.com"]
+
   spec.summary       = "Integrate your elasticsearch-rails gem with Bonsai Elasticsearch."
   spec.description   = <<-EOF
                           This gem offers a shim to connect Rails apps with a Bonsai
@@ -37,14 +39,17 @@ Gem::Specification.new do |spec|
 
                           The cluster URL is available via the Bonsai dashboard.
                        EOF
+
   spec.homepage      = "https://github.com/omc/bonsai-elasticsearch-rails"
   spec.license       = "MIT"
 
-  spec.files         = ["lib/bonsai-elasticsearch-rails.rb"]
-  spec.require_paths = ["lib"]
+  spec.files         = [ "lib/bonsai-elasticsearch-rails.rb", "lib/bonsai/elasticsearch/rails/railtie.rb" ]
+  spec.require_paths = [ "lib" ]
 
   spec.add_runtime_dependency "elasticsearch-model", "~> 0"
   spec.add_runtime_dependency "elasticsearch-rails", "~> 0"
+
   spec.add_development_dependency "bundler", "~> 1"
   spec.add_development_dependency "rake", "< 11.0"
+
 end
