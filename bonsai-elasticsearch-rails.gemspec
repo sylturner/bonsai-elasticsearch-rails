@@ -1,7 +1,7 @@
 # coding: utf-8
 Gem::Specification.new do |spec|
   spec.name          = "bonsai-elasticsearch-rails"
-  spec.version       = "0.1.0"
+  spec.version       = "0.2.0"
 
   spec.authors       = ["Rob Sears", "Nick Zadrozny"]
   spec.email         = ["rob@onemorecloud.com", "nick@onemorecloud.com"]
